@@ -1,0 +1,320 @@
+Epoch:[1/160] train_loss: 0.670 valid_loss: 0.559
+train_dice: 0.337 valid_dice: 0.192
+Epoch:[2/160] train_loss: 0.522 valid_loss: 0.567
+train_dice: 0.317 valid_dice: 0.143
+Epoch:[3/160] train_loss: 0.447 valid_loss: 0.711
+train_dice: 0.552 valid_dice: 0.568
+Epoch:[4/160] train_loss: 0.392 valid_loss: 0.433
+train_dice: 0.632 valid_dice: 0.632
+Epoch:[5/160] train_loss: 0.371 valid_loss: 0.350
+train_dice: 0.649 valid_dice: 0.626
+Epoch:[6/160] train_loss: 0.314 valid_loss: 0.480
+train_dice: 0.711 valid_dice: 0.690
+Epoch:[7/160] train_loss: 0.302 valid_loss: 0.431
+train_dice: 0.732 valid_dice: 0.584
+Epoch:[8/160] train_loss: 0.279 valid_loss: 0.254
+train_dice: 0.749 valid_dice: 0.753
+Epoch:[9/160] train_loss: 0.246 valid_loss: 0.223
+train_dice: 0.785 valid_dice: 0.799
+Epoch:[10/160] train_loss: 0.229 valid_loss: 0.224
+train_dice: 0.802 valid_dice: 0.811
+Epoch:[11/160] train_loss: 0.204 valid_loss: 0.492
+train_dice: 0.822 valid_dice: 0.477
+Epoch:[12/160] train_loss: 0.197 valid_loss: 0.208
+train_dice: 0.829 valid_dice: 0.821
+Epoch:[13/160] train_loss: 0.182 valid_loss: 0.175
+train_dice: 0.841 valid_dice: 0.847
+Epoch:[14/160] train_loss: 0.169 valid_loss: 0.131
+train_dice: 0.863 valid_dice: 0.889
+Epoch:[15/160] train_loss: 0.161 valid_loss: 0.163
+train_dice: 0.865 valid_dice: 0.855
+Epoch:[16/160] train_loss: 0.145 valid_loss: 0.119
+train_dice: 0.878 valid_dice: 0.898
+Epoch:[17/160] train_loss: 0.147 valid_loss: 0.163
+train_dice: 0.876 valid_dice: 0.867
+Epoch:[18/160] train_loss: 0.142 valid_loss: 0.138
+train_dice: 0.877 valid_dice: 0.889
+Epoch:[19/160] train_loss: 0.126 valid_loss: 0.115
+train_dice: 0.895 valid_dice: 0.905
+Epoch:[20/160] train_loss: 0.126 valid_loss: 0.107
+train_dice: 0.893 valid_dice: 0.910
+Epoch:[21/160] train_loss: 0.127 valid_loss: 0.104
+train_dice: 0.898 valid_dice: 0.912
+Epoch:[22/160] train_loss: 0.123 valid_loss: 0.109
+train_dice: 0.896 valid_dice: 0.905
+Epoch:[23/160] train_loss: 0.121 valid_loss: 0.113
+train_dice: 0.897 valid_dice: 0.901
+Epoch:[24/160] train_loss: 0.106 valid_loss: 0.093
+train_dice: 0.907 valid_dice: 0.921
+Epoch:[25/160] train_loss: 0.117 valid_loss: 0.448
+train_dice: 0.899 valid_dice: 0.604
+Epoch:[26/160] train_loss: 0.114 valid_loss: 0.121
+train_dice: 0.905 valid_dice: 0.892
+Epoch:[27/160] train_loss: 0.121 valid_loss: 0.132
+train_dice: 0.900 valid_dice: 0.888
+Epoch:[28/160] train_loss: 0.115 valid_loss: 0.111
+train_dice: 0.904 valid_dice: 0.902
+Epoch:[29/160] train_loss: 0.108 valid_loss: 0.092
+train_dice: 0.908 valid_dice: 0.922
+Epoch:[30/160] train_loss: 0.110 valid_loss: 0.099
+train_dice: 0.903 valid_dice: 0.915
+Epoch:[31/160] train_loss: 0.097 valid_loss: 0.105
+train_dice: 0.917 valid_dice: 0.909
+Epoch:[32/160] train_loss: 0.110 valid_loss: 0.091
+train_dice: 0.910 valid_dice: 0.923
+Epoch:[33/160] train_loss: 0.106 valid_loss: 0.094
+train_dice: 0.915 valid_dice: 0.920
+Epoch:[34/160] train_loss: 0.107 valid_loss: 0.106
+train_dice: 0.904 valid_dice: 0.914
+Epoch:[35/160] train_loss: 0.099 valid_loss: 0.100
+train_dice: 0.917 valid_dice: 0.917
+Epoch:[36/160] train_loss: 0.102 valid_loss: 0.089
+train_dice: 0.904 valid_dice: 0.922
+Epoch:[37/160] train_loss: 0.100 valid_loss: 0.107
+train_dice: 0.914 valid_dice: 0.906
+Epoch:[38/160] train_loss: 0.102 valid_loss: 0.105
+train_dice: 0.909 valid_dice: 0.912
+Epoch:[39/160] train_loss: 0.098 valid_loss: 0.099
+train_dice: 0.912 valid_dice: 0.915
+Epoch:[40/160] train_loss: 0.093 valid_loss: 0.090
+train_dice: 0.920 valid_dice: 0.921
+Epoch:[41/160] train_loss: 0.100 valid_loss: 0.092
+train_dice: 0.906 valid_dice: 0.920
+Epoch:[42/160] train_loss: 0.099 valid_loss: 0.101
+train_dice: 0.919 valid_dice: 0.910
+Epoch:[43/160] train_loss: 0.094 valid_loss: 0.088
+train_dice: 0.918 valid_dice: 0.922
+Epoch:[44/160] train_loss: 0.088 valid_loss: 0.089
+train_dice: 0.923 valid_dice: 0.923
+Epoch:[45/160] train_loss: 0.091 valid_loss: 0.087
+train_dice: 0.915 valid_dice: 0.926
+Epoch:[46/160] train_loss: 0.093 valid_loss: 0.100
+train_dice: 0.919 valid_dice: 0.915
+Epoch:[47/160] train_loss: 0.090 valid_loss: 0.090
+train_dice: 0.918 valid_dice: 0.920
+Epoch:[48/160] train_loss: 0.087 valid_loss: 0.099
+train_dice: 0.924 valid_dice: 0.914
+Epoch:[49/160] train_loss: 0.098 valid_loss: 0.090
+train_dice: 0.910 valid_dice: 0.927
+Epoch:[50/160] train_loss: 0.082 valid_loss: 0.083
+train_dice: 0.928 valid_dice: 0.927
+Epoch:[51/160] train_loss: 0.088 valid_loss: 0.088
+train_dice: 0.926 valid_dice: 0.925
+Epoch:[52/160] train_loss: 0.082 valid_loss: 0.088
+train_dice: 0.929 valid_dice: 0.923
+Epoch:[53/160] train_loss: 0.091 valid_loss: 0.088
+train_dice: 0.925 valid_dice: 0.924
+Epoch:[54/160] train_loss: 0.083 valid_loss: 0.090
+train_dice: 0.931 valid_dice: 0.922
+Epoch:[55/160] train_loss: 0.084 valid_loss: 0.090
+train_dice: 0.929 valid_dice: 0.921
+Epoch:[56/160] train_loss: 0.085 valid_loss: 0.090
+train_dice: 0.921 valid_dice: 0.920
+Epoch:[57/160] train_loss: 0.083 valid_loss: 0.089
+train_dice: 0.927 valid_dice: 0.926
+Epoch:[58/160] train_loss: 0.080 valid_loss: 0.084
+train_dice: 0.929 valid_dice: 0.929
+Epoch:[59/160] train_loss: 0.083 valid_loss: 0.083
+train_dice: 0.931 valid_dice: 0.929
+Epoch:[60/160] train_loss: 0.081 valid_loss: 0.096
+train_dice: 0.932 valid_dice: 0.917
+Epoch:[61/160] train_loss: 0.084 valid_loss: 0.085
+train_dice: 0.926 valid_dice: 0.927
+Epoch:[62/160] train_loss: 0.081 valid_loss: 0.089
+train_dice: 0.930 valid_dice: 0.924
+Epoch:[63/160] train_loss: 0.078 valid_loss: 0.092
+train_dice: 0.930 valid_dice: 0.920
+Epoch:[64/160] train_loss: 0.087 valid_loss: 0.108
+train_dice: 0.925 valid_dice: 0.909
+Epoch:[65/160] train_loss: 0.086 valid_loss: 0.091
+train_dice: 0.926 valid_dice: 0.922
+Epoch:[66/160] train_loss: 0.091 valid_loss: 0.142
+train_dice: 0.921 valid_dice: 0.872
+Epoch:[67/160] train_loss: 0.088 valid_loss: 0.091
+train_dice: 0.923 valid_dice: 0.924
+Epoch:[68/160] train_loss: 0.081 valid_loss: 0.086
+train_dice: 0.928 valid_dice: 0.926
+Epoch:[69/160] train_loss: 0.083 valid_loss: 0.080
+train_dice: 0.925 valid_dice: 0.931
+Epoch:[70/160] train_loss: 0.083 valid_loss: 0.087
+train_dice: 0.928 valid_dice: 0.927
+Epoch:[71/160] train_loss: 0.089 valid_loss: 0.080
+train_dice: 0.920 valid_dice: 0.934
+Epoch:[72/160] train_loss: 0.083 valid_loss: 0.081
+train_dice: 0.929 valid_dice: 0.930
+Epoch:[73/160] train_loss: 0.081 valid_loss: 0.087
+train_dice: 0.932 valid_dice: 0.924
+Epoch:[74/160] train_loss: 0.079 valid_loss: 0.089
+train_dice: 0.931 valid_dice: 0.922
+Epoch:[75/160] train_loss: 0.080 valid_loss: 0.085
+train_dice: 0.922 valid_dice: 0.927
+Epoch:[76/160] train_loss: 0.083 valid_loss: 0.079
+train_dice: 0.921 valid_dice: 0.932
+Epoch:[77/160] train_loss: 0.083 valid_loss: 0.076
+train_dice: 0.920 valid_dice: 0.935
+Epoch:[78/160] train_loss: 0.077 valid_loss: 0.084
+train_dice: 0.934 valid_dice: 0.928
+Epoch:[79/160] train_loss: 0.078 valid_loss: 0.084
+train_dice: 0.925 valid_dice: 0.928
+Epoch:[80/160] train_loss: 0.081 valid_loss: 0.089
+train_dice: 0.925 valid_dice: 0.924
+Epoch:[81/160] train_loss: 0.082 valid_loss: 0.084
+train_dice: 0.926 valid_dice: 0.929
+Epoch:[82/160] train_loss: 0.081 valid_loss: 0.081
+train_dice: 0.926 valid_dice: 0.929
+Epoch:[83/160] train_loss: 0.084 valid_loss: 0.084
+train_dice: 0.919 valid_dice: 0.928
+Epoch:[84/160] train_loss: 0.090 valid_loss: 0.079
+train_dice: 0.919 valid_dice: 0.933
+Epoch:[85/160] train_loss: 0.089 valid_loss: 0.085
+train_dice: 0.919 valid_dice: 0.928
+Epoch:[86/160] train_loss: 0.084 valid_loss: 0.087
+train_dice: 0.923 valid_dice: 0.925
+Epoch:[87/160] train_loss: 0.083 valid_loss: 0.089
+train_dice: 0.923 valid_dice: 0.926
+Epoch:[88/160] train_loss: 0.074 valid_loss: 0.082
+train_dice: 0.936 valid_dice: 0.932
+Epoch:[89/160] train_loss: 0.072 valid_loss: 0.081
+train_dice: 0.937 valid_dice: 0.932
+Epoch:[90/160] train_loss: 0.079 valid_loss: 0.079
+train_dice: 0.938 valid_dice: 0.935
+Epoch:[91/160] train_loss: 0.082 valid_loss: 0.075
+train_dice: 0.922 valid_dice: 0.937
+Epoch:[92/160] train_loss: 0.075 valid_loss: 0.082
+train_dice: 0.930 valid_dice: 0.931
+Epoch:[93/160] train_loss: 0.073 valid_loss: 0.081
+train_dice: 0.933 valid_dice: 0.934
+Epoch:[94/160] train_loss: 0.076 valid_loss: 0.076
+train_dice: 0.936 valid_dice: 0.934
+Epoch:[95/160] train_loss: 0.074 valid_loss: 0.078
+train_dice: 0.932 valid_dice: 0.933
+Epoch:[96/160] train_loss: 0.075 valid_loss: 0.079
+train_dice: 0.937 valid_dice: 0.935
+Epoch:[97/160] train_loss: 0.074 valid_loss: 0.080
+train_dice: 0.936 valid_dice: 0.930
+Epoch:[98/160] train_loss: 0.069 valid_loss: 0.079
+train_dice: 0.936 valid_dice: 0.932
+Epoch:[99/160] train_loss: 0.071 valid_loss: 0.081
+train_dice: 0.935 valid_dice: 0.928
+Epoch:[100/160] train_loss: 0.074 valid_loss: 0.073
+train_dice: 0.936 valid_dice: 0.937
+Epoch:[101/160] train_loss: 0.073 valid_loss: 0.078
+train_dice: 0.933 valid_dice: 0.934
+Epoch:[102/160] train_loss: 0.069 valid_loss: 0.077
+train_dice: 0.936 valid_dice: 0.934
+Epoch:[103/160] train_loss: 0.074 valid_loss: 0.078
+train_dice: 0.933 valid_dice: 0.935
+Epoch:[104/160] train_loss: 0.072 valid_loss: 0.080
+train_dice: 0.930 valid_dice: 0.933
+Epoch:[105/160] train_loss: 0.071 valid_loss: 0.086
+train_dice: 0.936 valid_dice: 0.927
+Epoch:[106/160] train_loss: 0.070 valid_loss: 0.084
+train_dice: 0.936 valid_dice: 0.932
+Epoch:[107/160] train_loss: 0.070 valid_loss: 0.085
+train_dice: 0.937 valid_dice: 0.927
+Epoch:[108/160] train_loss: 0.080 valid_loss: 0.081
+train_dice: 0.914 valid_dice: 0.931
+Epoch:[109/160] train_loss: 0.067 valid_loss: 0.080
+train_dice: 0.940 valid_dice: 0.933
+Epoch:[110/160] train_loss: 0.068 valid_loss: 0.082
+train_dice: 0.941 valid_dice: 0.932
+Epoch:[111/160] train_loss: 0.077 valid_loss: 0.078
+train_dice: 0.930 valid_dice: 0.935
+Epoch:[112/160] train_loss: 0.068 valid_loss: 0.096
+train_dice: 0.941 valid_dice: 0.918
+Epoch:[113/160] train_loss: 0.073 valid_loss: 0.081
+train_dice: 0.933 valid_dice: 0.931
+Epoch:[114/160] train_loss: 0.079 valid_loss: 0.084
+train_dice: 0.923 valid_dice: 0.930
+Epoch:[115/160] train_loss: 0.067 valid_loss: 0.078
+train_dice: 0.938 valid_dice: 0.934
+Epoch:[116/160] train_loss: 0.063 valid_loss: 0.083
+train_dice: 0.945 valid_dice: 0.930
+Epoch:[117/160] train_loss: 0.071 valid_loss: 0.086
+train_dice: 0.938 valid_dice: 0.928
+Epoch:[118/160] train_loss: 0.072 valid_loss: 0.080
+train_dice: 0.933 valid_dice: 0.934
+Epoch:[119/160] train_loss: 0.073 valid_loss: 0.086
+train_dice: 0.928 valid_dice: 0.928
+Epoch:[120/160] train_loss: 0.071 valid_loss: 0.083
+train_dice: 0.935 valid_dice: 0.931
+Epoch:[121/160] train_loss: 0.068 valid_loss: 0.083
+train_dice: 0.943 valid_dice: 0.928
+Epoch:[122/160] train_loss: 0.092 valid_loss: 0.103
+train_dice: 0.923 valid_dice: 0.921
+Epoch:[123/160] train_loss: 0.087 valid_loss: 0.077
+train_dice: 0.923 valid_dice: 0.934
+Epoch:[124/160] train_loss: 0.077 valid_loss: 0.081
+train_dice: 0.929 valid_dice: 0.931
+Epoch:[125/160] train_loss: 0.069 valid_loss: 0.084
+train_dice: 0.941 valid_dice: 0.928
+Epoch:[126/160] train_loss: 0.069 valid_loss: 0.077
+train_dice: 0.936 valid_dice: 0.934
+Epoch:[127/160] train_loss: 0.070 valid_loss: 0.084
+train_dice: 0.938 valid_dice: 0.927
+Epoch:[128/160] train_loss: 0.074 valid_loss: 0.082
+train_dice: 0.933 valid_dice: 0.932
+Epoch:[129/160] train_loss: 0.068 valid_loss: 0.091
+train_dice: 0.938 valid_dice: 0.923
+Epoch:[130/160] train_loss: 0.070 valid_loss: 0.083
+train_dice: 0.933 valid_dice: 0.928
+Epoch:[131/160] train_loss: 0.064 valid_loss: 0.081
+train_dice: 0.944 valid_dice: 0.932
+Epoch:[132/160] train_loss: 0.069 valid_loss: 0.080
+train_dice: 0.938 valid_dice: 0.932
+Epoch:[133/160] train_loss: 0.065 valid_loss: 0.078
+train_dice: 0.941 valid_dice: 0.935
+Epoch:[134/160] train_loss: 0.066 valid_loss: 0.080
+train_dice: 0.939 valid_dice: 0.933
+Epoch:[135/160] train_loss: 0.065 valid_loss: 0.077
+train_dice: 0.940 valid_dice: 0.936
+Epoch:[136/160] train_loss: 0.068 valid_loss: 0.081
+train_dice: 0.935 valid_dice: 0.932
+Epoch:[137/160] train_loss: 0.070 valid_loss: 0.080
+train_dice: 0.939 valid_dice: 0.935
+Epoch:[138/160] train_loss: 0.063 valid_loss: 0.091
+train_dice: 0.945 valid_dice: 0.925
+Epoch:[139/160] train_loss: 0.072 valid_loss: 0.090
+train_dice: 0.939 valid_dice: 0.926
+Epoch:[140/160] train_loss: 0.065 valid_loss: 0.089
+train_dice: 0.943 valid_dice: 0.928
+Epoch:[141/160] train_loss: 0.064 valid_loss: 0.082
+train_dice: 0.941 valid_dice: 0.930
+Epoch:[142/160] train_loss: 0.063 valid_loss: 0.081
+train_dice: 0.945 valid_dice: 0.932
+Epoch:[143/160] train_loss: 0.062 valid_loss: 0.094
+train_dice: 0.945 valid_dice: 0.920
+Epoch:[144/160] train_loss: 0.065 valid_loss: 0.082
+train_dice: 0.937 valid_dice: 0.931
+Epoch:[145/160] train_loss: 0.068 valid_loss: 0.080
+train_dice: 0.935 valid_dice: 0.933
+Epoch:[146/160] train_loss: 0.071 valid_loss: 0.079
+train_dice: 0.933 valid_dice: 0.934
+Epoch:[147/160] train_loss: 0.071 valid_loss: 0.079
+train_dice: 0.929 valid_dice: 0.933
+Epoch:[148/160] train_loss: 0.064 valid_loss: 0.083
+train_dice: 0.943 valid_dice: 0.933
+Epoch:[149/160] train_loss: 0.070 valid_loss: 0.078
+train_dice: 0.935 valid_dice: 0.937
+Epoch:[150/160] train_loss: 0.065 valid_loss: 0.085
+train_dice: 0.941 valid_dice: 0.930
+Epoch:[151/160] train_loss: 0.065 valid_loss: 0.084
+train_dice: 0.945 valid_dice: 0.930
+Epoch:[152/160] train_loss: 0.063 valid_loss: 0.076
+train_dice: 0.945 valid_dice: 0.938
+Epoch:[153/160] train_loss: 0.072 valid_loss: 0.082
+train_dice: 0.934 valid_dice: 0.933
+Epoch:[154/160] train_loss: 0.066 valid_loss: 0.080
+train_dice: 0.942 valid_dice: 0.935
+Epoch:[155/160] train_loss: 0.067 valid_loss: 0.081
+train_dice: 0.936 valid_dice: 0.932
+Epoch:[156/160] train_loss: 0.069 valid_loss: 0.078
+train_dice: 0.938 valid_dice: 0.935
+Epoch:[157/160] train_loss: 0.068 valid_loss: 0.080
+train_dice: 0.933 valid_dice: 0.932
+Epoch:[158/160] train_loss: 0.063 valid_loss: 0.079
+train_dice: 0.941 valid_dice: 0.935
+Epoch:[159/160] train_loss: 0.067 valid_loss: 0.078
+train_dice: 0.940 valid_dice: 0.936
+Epoch:[160/160] train_loss: 0.066 valid_loss: 0.090
+train_dice: 0.939 valid_dice: 0.924
