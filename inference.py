@@ -103,9 +103,9 @@ def test_all_case(net, image_list, num_classes=2, patch_size=(112, 112, 80), str
 
 
 if __name__ == '__main__':
-    data_path = '/***data_set/LASet/data/'
+    data_path = '/***/LASet/data/'
     test_save_path = 'predictions/'
-    save_mode_path = 'results/VNet.pth'
+    save_mode_path = 'model/LA_vnet_25_labeled/supervised/supervised_best_model.pth'
     net = VNet(n_channels=1,n_classes=2, normalization='batchnorm').cuda()
     net.load_state_dict(torch.load(save_mode_path))
     print("init weight from {}".format(save_mode_path))
@@ -116,4 +116,4 @@ if __name__ == '__main__':
     # 滑动窗口法
     avg_metric = test_all_case(net, image_list, num_classes=2,
                                 patch_size=(112, 112, 80), stride_xy=18, stride_z=4,
-                                save_result=True,test_save_path=test_save_path)   
+                                save_result=False,test_save_path=test_save_path)   

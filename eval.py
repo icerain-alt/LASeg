@@ -32,7 +32,7 @@ def eval_loop(model, criterion, valid_loader, device):
 
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-data_path = '/***data_set/LASet/data'
+data_path = '/***、data_set/LASet/data'
 patch_size = (112,112,80)
 model = VNet(n_channels=1,n_classes=2, normalization='batchnorm').to(device)
 # 加载训练模型
