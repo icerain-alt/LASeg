@@ -20,7 +20,7 @@ from dataloaders.la_heart import *
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--dataset_name', type=str, default='LA', help='dataset_name')
-parser.add_argument('--root_path', type=str, default='/***/data_set/LASet/data',
+parser.add_argument('--root_path', type=str, default='/data/omnisky/postgraduate/Yb/data_set/LASet/data',
                     help='Name of Experiment')
 parser.add_argument('--exp', type=str, default='vnet', help='model_name')
 parser.add_argument('--model', type=str, default='MT', help='model_name')

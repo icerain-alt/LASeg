@@ -21,22 +21,22 @@ from dataloaders.la_heart import *
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--dataset_name', type=str, default='LA', help='dataset_name')
-parser.add_argument('--root_path', type=str, default='/***/data_set/LASet/data',
+parser.add_argument('--root_path', type=str, default='/data/omnisky/postgraduate/Yb/data_set/LASet/data',
                     help='Name of Experiment')
 parser.add_argument('--exp', type=str, default='vnet', help='model_name')
 parser.add_argument('--model', type=str, default='supervised', help='model_name')
 parser.add_argument('--max_iterations', type=int, default=6000, help='maximum epoch number to train')
-parser.add_argument('--batch_size', type=int, default=4, help='batch_size per gpu')
-parser.add_argument('--labeled_bs', type=int, default=2, help='labeled_batch_size per gpu')
+parser.add_argument('--batch_size', type=int, default=2, help='batch_size per gpu')
 parser.add_argument('--labelnum', type=int, default=25, help='trained samples')
 parser.add_argument('--max_samples', type=int, default=123, help='all samples')
 parser.add_argument('--base_lr', type=float, default=0.01, help='maximum epoch number to train')
 parser.add_argument('--deterministic', type=int, default=1, help='whether use deterministic training')
 parser.add_argument('--seed', type=int, default=1337, help='random seed')
-parser.add_argument('--gpu', type=str, default='0', help='GPU to use')
+parser.add_argument('--gpu', type=str, default='1', help='GPU to use')
 args = parser.parse_args()
 
 
+num_classes = 2
 patch_size = (112, 112, 80)
 snapshot_path = "model/{}_{}_{}_labeled/{}".format(args.dataset_name, args.exp, args.labelnum, args.model)
 
@@ -44,7 +44,6 @@ os.environ['CUDA_VISIBLE_DEVICES'] = args.gpu
 batch_size = args.batch_size * len(args.gpu.split(','))
 max_iterations = args.max_iterations
 base_lr = args.base_lr
-labeled_bs = args.labeled_bs
 
 if args.deterministic:
     cudnn.benchmark = False
@@ -53,9 +52,6 @@ if args.deterministic:
     np.random.seed(args.seed)
     torch.manual_seed(args.seed)
     torch.cuda.manual_seed(args.seed)
-
-num_classes = 2
-patch_size = (112, 112, 80)
 
 
 def cal_dice(output, target, eps=1e-3):
@@ -119,16 +115,12 @@ if __name__ == "__main__":
             # print('fetch data cost {}'.format(time2-time1))
             volume_batch, label_batch = sampled_batch['image'], sampled_batch['label']
             volume_batch, label_batch = volume_batch.cuda(), label_batch.cuda()
-            unlabeled_volume_batch = volume_batch[labeled_bs:]
-
-            noise = torch.clamp(torch.randn_like(unlabeled_volume_batch) * 0.1, -0.2, 0.2)
-            ema_inputs = unlabeled_volume_batch + noise
             outputs = model(volume_batch)
 
             # calculate the loss
-            loss_seg = F.cross_entropy(outputs[:labeled_bs], label_batch[:labeled_bs])
+            loss_seg = F.cross_entropy(outputs, label_batch)
             outputs_soft = F.softmax(outputs, dim=1)
-            loss_seg_dice = losses.dice_loss(outputs_soft[:labeled_bs, 1, :, :, :], label_batch[:labeled_bs] == 1)
+            loss_seg_dice = losses.dice_loss(outputs_soft[:, 1, :, :, :], label_batch == 1)
             loss = 0.5 * (loss_seg + loss_seg_dice)
 
             optimizer.zero_grad()
