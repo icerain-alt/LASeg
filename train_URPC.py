@@ -43,6 +43,7 @@ parser.add_argument('--consistency', type=float,  default=0.1, help='consistency
 parser.add_argument('--consistency_rampup', type=float,  default=40.0, help='consistency_rampup')
 args = parser.parse_args()
 
+num_classes = 2
 patch_size = (112, 112, 80)
 snapshot_path = "model/{}_{}_{}_labeled/{}".format(args.dataset_name, args.exp, args.labelnum, args.model)
 
@@ -59,9 +60,6 @@ if args.deterministic:
     np.random.seed(args.seed)
     torch.manual_seed(args.seed)
     torch.cuda.manual_seed(args.seed)
-
-num_classes = 2
-patch_size = (112, 112, 80)
 
 
 def cal_dice(output, target, eps=1e-3):
