@@ -60,7 +60,7 @@ def softmax_mse_loss(input_logits, target_logits):
     input_softmax = F.softmax(input_logits, dim=1)
     target_softmax = F.softmax(target_logits, dim=1)
 
-    mse_loss = (input_softmax-target_softmax)**2
+    mse_loss = F.mse_loss(input_softmax-target_softmax)
     return mse_loss
 
 def mse_loss(input1, input2):
