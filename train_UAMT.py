@@ -248,10 +248,6 @@ if __name__ == "__main__":
                 lr_ = base_lr * 0.1 ** (iter_num // 2500)
                 for param_group in optimizer.param_groups:
                     param_group['lr'] = lr_
-            if iter_num % 1000 == 0:
-                save_mode_path = os.path.join(snapshot_path, 'iter_' + str(iter_num) + '.pth')
-                torch.save(model.state_dict(), save_mode_path)
-                logging.info("save model to {}".format(save_mode_path))
 
             if iter_num >= 800 and iter_num % 200 == 0:
                 model.eval()
