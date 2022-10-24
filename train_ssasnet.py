@@ -29,7 +29,7 @@ parser.add_argument('--dataset_name', type=str,  default='LA', help='dataset_nam
 parser.add_argument('--root_path', type=str, default='/data/omnisky/postgraduate/Yb/data_set/LASet/data', help='Name of Experiment')
 parser.add_argument('--exp', type=str,  default='vnet', help='model_name')
 parser.add_argument('--model', type=str,  default='SASSNet', help='model_name')
-parser.add_argument('--max_iterations', type=int,  default=10000, help='maximum epoch number to train')
+parser.add_argument('--max_iterations', type=int,  default=6000, help='maximum epoch number to train')
 parser.add_argument('--batch_size', type=int, default=4, help='batch_size per gpu')
 parser.add_argument('--labeled_bs', type=int, default=2, help='labeled_batch_size per gpu')
 parser.add_argument('--base_lr', type=float,  default=0.01, help='maximum epoch number to train')
@@ -38,7 +38,7 @@ parser.add_argument('--deterministic', type=int,  default=1, help='whether use d
 parser.add_argument('--labelnum', type=int,  default=25, help='random seed')  # 25有标签，98无标签
 parser.add_argument('--max_samples', type=int, default=123, help='all samples')
 parser.add_argument('--seed', type=int,  default=1337, help='random seed')
-parser.add_argument('--gpu', type=str,  default='1', help='GPU to use')
+parser.add_argument('--gpu', type=str,  default='2', help='GPU to use')
 parser.add_argument('--beta', type=float,  default=0.3, help='balance factor to control regional and sdm loss')
 parser.add_argument('--gamma', type=float,  default=0.5, help='balance factor to control supervised and consistency loss')
 ### costs
